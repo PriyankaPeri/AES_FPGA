@@ -37,7 +37,8 @@ input [7:0]Rcon_in,
         in_pipeA,in_pipeB,in_pipeC,in_pipeD,in_pipeE,in_pipeF,
         in_pipek0,in_pipek1,in_pipek2,in_pipek3,in_pipek4,in_pipek5,in_pipek6,in_pipek7,in_pipek8,in_pipek9,
         in_pipekA,in_pipekB,in_pipekC,in_pipekD,in_pipekE,in_pipekF;
-    reg empty_str, Rcon_str;
+    reg empty_str;
+    reg[7:0] Rcon_str;
 
     always @(posedge clock)
           begin

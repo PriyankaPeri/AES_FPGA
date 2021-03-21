@@ -24,9 +24,11 @@ module pipe_reg_end(
     input [7:0]Rcon_in,
     input clock,
     input [7:0]in0,in1,in2,in3,in4,in5,in6,in7,in8,in9,inA,inB,inC,inD,inE,inF,
-    output reg [127:0]out);
+    output reg [127:0]out,
+    output reg[7:0] Rcon_out);
     
     reg [127:0]in_pipe;
+    reg [7:0]Rcon_out_;
 
     always @(posedge clock)
           begin
@@ -48,11 +50,13 @@ module pipe_reg_end(
           in_pipe[111:104]<= inD;
           in_pipe[119:112]<= inE;
           in_pipe[127:120]<= inF;
+          Rcon_out_<=Rcon_in;
           end
           end
     
     always @(posedge clock)
     begin
       out<=in_pipe;
+      Rcon_out<=Rcon_out_;
       end
 endmodule

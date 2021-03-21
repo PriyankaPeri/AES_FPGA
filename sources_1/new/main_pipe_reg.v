@@ -114,7 +114,7 @@ input clock,
           in_pipekE<= in_qnkE;
           in_pipekF<= in_qnkF;
           empty_pipe<= empty_in_qn;
-          Rcon_str<= Rcon_in;
+          Rcon_str<= 8'h01;
           end
         end
     
