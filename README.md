@@ -108,7 +108,7 @@ Currently requires refractoring.
 
 Here: [Priyankaa](www.linkedin.com/in/priyankaa-p-57ba2619b)
 
-Project Link: [https://github.com/your_username/repo_name](https://iste.nitk.ac.in/#/project/102)
+Project Link: [ISTE-NITK-HardwareAssistedSSL](https://iste.nitk.ac.in/#/project/102)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
