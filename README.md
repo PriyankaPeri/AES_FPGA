@@ -2,8 +2,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-
-
   <h2>AES on FPGA</h3>
 
   <p>
