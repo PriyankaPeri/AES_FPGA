@@ -4,9 +4,9 @@
 <p align="center">
 
 
-  <h3 align="center">AES on FPGA</h3>
+  <h2>AES on FPGA</h3>
 
-  <p align="center">
+  <p>
     Verilog implementation of AES-128 algorithm for hardware acceleration.
     <br />
     <a href="https://iste.nitk.ac.in/#/project/102"><strong>View Demo »</strong></a>
