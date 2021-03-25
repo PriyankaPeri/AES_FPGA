@@ -101,7 +101,7 @@ The blocks also internally perform Key Expansion parallely, removing the need fo
 <!-- ROADMAP -->
 ## Roadmap
 
-Currently requires refraction.
+Currently requires refractoring.
 
 <!-- CONTACT -->
 ## Contact
